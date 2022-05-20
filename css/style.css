@@ -37,6 +37,7 @@ body{
     align-items: center;
     border-radius: 5px;
     font-weight: 600;
+    display: inline;
 }
 .nav-title-img{
     display: flex;
@@ -72,7 +73,8 @@ body{
 .player{
     width: 330px;
     padding: 15px;
-    border: 1px solid #E02C6D;
+    /* border: 1px solid #E02C6D; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     align-items: center;
     margin: 15px;
 }
@@ -84,4 +86,33 @@ body{
 }
 .player-details{
     text-align: justify;
+}
+
+/* second section  */
+.highlights{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.highlight-info{
+    width: 470px;
+    height: 300px;
+    /* border: 2px solid #E02C6D; */
+    padding: 15px;
+    margin: 15px 35px;
+}
+.highlight-info h2{
+    font-size: 40px;
+}
+.highlight-info p{
+    text-align: justify;
+}
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+    padding: 15px;
+    margin: 15px 35px;
 }
