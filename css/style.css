@@ -164,3 +164,25 @@ body{
 .fa-youtube{
     color: red;
 }
+
+/* responsiveness with screen size */
+@media only screen and (max-width: 860px){
+    .header-area{
+        height: 700px;
+    }
+    .nav-title-img{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+}
+@media only screen and (min-width: 860.1px) and (max-width: 952px){
+    .header-area{
+        height: 500px;
+    }
+}
+@media only screen and (min-width: 952.1px) and (max-width: 1372px){
+    .header-area{
+        height: 450px;
+    }
+}
