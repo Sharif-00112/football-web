@@ -116,3 +116,51 @@ body{
     padding: 15px;
     margin: 15px 35px;
 }
+
+/* footer  */
+.footer-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-style{
+    width: 484px;
+    height: 213px;
+    /* border: 2px solid #E02C6D; */
+    margin: 50px 15px 5px 15px;
+    padding: 30px 30px 0px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-style a{
+    text-decoration: none;
+}
+.foot-style img{
+    width: 100%;
+}
+
+/* Font awesome logos  */
+.fa-brands{
+    font-size: 25px;
+}
+.fa-facebook{
+    color: cornflowerblue;
+}
+.fa-facebook-messenger{
+    color: rgb(37, 98, 254);
+}
+.fa-instagram-square{
+    color: rgb(225, 45, 82);
+}
+.fa-whatsapp-square{
+    color: rgb(62, 232, 80);
+}
+.fa-linkedin{
+    color: rgb(12, 97, 166);
+}
+.fa-youtube{
+    color: red;
+}
